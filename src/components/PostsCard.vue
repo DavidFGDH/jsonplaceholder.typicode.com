@@ -36,7 +36,21 @@
             <v-list-item-title>
               Por <span style="color:#00b2ff">{{this.Name}}</span></v-list-item-title>
           </v-list-item-content>
+          <v-list-item-content>
+            <v-list-item-title     class="text-right">
+              <v-btn
+                  v-if="!this.$route.path.includes('comments')"
+                  outlined
+                  rounded
+                  text
+                  @click="goToComments()"
+                  width="150"
 
+              >
+                Comentarios
+              </v-btn>
+            </v-list-item-title>
+          </v-list-item-content>
         </v-list-item>
       </v-card-actions>
     </v-card>

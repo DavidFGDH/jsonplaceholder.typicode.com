@@ -9,7 +9,7 @@
     <v-row>
       <v-col
           cols="12"
-          sm="4"
+          sm="6"
           v-for="Posts in UserPost"
           :key="Posts.id"
       >
