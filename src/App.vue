@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import UTS from "./assets/logo-uts-10-aniversario.png"
 export default {
   name: 'App',
 
